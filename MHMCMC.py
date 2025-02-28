@@ -33,8 +33,8 @@ def likelihood(Omga, h, redshift, Distance, InvCovariance_Matrix):
 
 # MH-MCMC Step Function
 def Metro_Monte(Omega_MC_previous, h_MC_previous, Var_Om_proposal, Var_h_proposal, CovarianceMatrix, redshift, Distance):
-    Omega_next = np.abs(Omega_MC_previous + Var_Om_proposal * np.random.randn())
-    h_next = np.abs(h_MC_previous + Var_h_proposal * np.random.randn())
+    Omega_next = Omega_MC_previous + Var_Om_proposal * np.random.randn()
+    h_next = h_MC_previous + Var_h_proposal * np.random.randn()
 
     log_posterior_old = likelihood(Omega_MC_previous, h_MC_previous, redshift, Distance, CovarianceMatrix)
     log_posterior_new = likelihood(Omega_next, h_next, redshift, Distance, CovarianceMatrix)

@@ -1,6 +1,6 @@
 # Estimating Cosmological Parameters using Type Ia Supernovae and MHMCMC
 
-This project estimates two key cosmological parameters — the matter density parameter $ \Omega_m $ and the dimensionless Hubble constant $ h $ — by fitting observational data from Type Ia supernovae to a flat ΛCDM model using the **Metropolis-Hastings Markov Chain Monte Carlo (MHMCMC)** algorithm.
+This project estimates two key cosmological parameters — the matter density parameter $\Omega_m$ and the dimensionless Hubble constant $h$ — by fitting observational data from Type Ia supernovae to a flat ΛCDM model using the **Metropolis-Hastings Markov Chain Monte Carlo (MHMCMC)** algorithm.
 
 This work is based on an assignment that explores how supernovae, as standard candles, can be used to measure the expansion of the Universe.
 

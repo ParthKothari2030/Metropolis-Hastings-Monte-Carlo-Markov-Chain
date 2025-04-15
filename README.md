@@ -31,21 +31,22 @@ $$
 $$
 
 where:
-- $ \mu $: Observed distance modulus
-- $ \mu_{\text{th}} $: Theoretical prediction for given parameters
+- $\mu$: Observed distance modulus
+- $\mu_{\text{th}}$: Theoretical prediction for given parameters
 - $ C $: Covariance matrix from data
 
 ---
 
-## 🧰 Project Structure
-
-project_root/ 
-├── src/ 
-│ └── MHMCMC.py # Main implementation of Metropolis-Hastings MCMC 
-├── data/ 
-| └── jla_mub_0.txt # Observed distance moduli (μ) and redshift values 
-│ └── jla_mub_covmatrix.txt # 31x31 covariance matrix 
-├── Jupyter_notebook/ 
-| └── MCMC_plots.ipynb # Visualizations of MCMC chains, histograms, contour plots  
-├── requirements.txt # List of Python dependencies 
-├── README.md # You're reading it
+## Project Structure
+```
+project_root/
+├── src/
+│   └── MHMCMC.py               # Main implementation of Metropolis-Hastings MCMC
+├── data/
+│   ├── jla_mub_0.txt           # Observed distance moduli (μ) and redshift values
+│   └── jla_mub_covmatrix.txt  # 31x31 covariance matrix
+├── Jupyter_notebook/
+│   └── MCMC_plots.ipynb       # Visualizations of MCMC chains, histograms, contour plots
+├── requirements.txt           # List of Python dependencies
+└── README.md                  # You're reading it!
+```

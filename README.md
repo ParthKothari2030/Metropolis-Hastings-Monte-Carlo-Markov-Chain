@@ -33,7 +33,7 @@ $$
 where:
 - $\mu$: Observed distance modulus
 - $\mu_{\text{th}}$: Theoretical prediction for given parameters
-- $ C $: Covariance matrix from data
+- C: Covariance matrix from data
 
 ---
 

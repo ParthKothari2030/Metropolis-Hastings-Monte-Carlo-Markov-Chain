@@ -68,8 +68,8 @@ def MHMC_run(Variance_Om, Variance_h, Guess_Om, Guess_h, CovarianceMatrix, Itera
     return Initial_h_guess, Initial_Omega_guess, acceptance_percent
 
 # Data Loading
-Data_z_and_u = np.genfromtxt('jla_mub_0.txt')
-Covariance = np.genfromtxt('jla_mub_covmatrix.txt')
+Data_z_and_u = np.genfromtxt('/path/to/jla_mub_0.txt')
+Covariance = np.genfromtxt('/path/to/jla_mub_covmatrix.txt')
 
 # Extract redshift and Distance Modulus
 redshift = Data_z_and_u[:, 0]

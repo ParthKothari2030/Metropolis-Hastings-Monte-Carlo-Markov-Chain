@@ -8,7 +8,7 @@ This work is based on an assignment that explores how supernovae, as standard ca
 
 ## Theoretical Background
 
-In a **flat ΛCDM cosmology**, the luminosity distance $ D_L(z) $ is related to redshift by:
+In a **flat ΛCDM cosmology**, the luminosity distance $D_L(z)$ is related to redshift by:
 
 $$
 D_L(z) = \frac{c(1+z)}{H_0} \left[ \eta(1, \Omega_m) - \eta\left(\frac{1}{1+z}, \Omega_m \right) \right]
